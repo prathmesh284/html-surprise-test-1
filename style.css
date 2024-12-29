@@ -1,0 +1,141 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    background-color: rgba(4, 56, 115, 1);
+    color:white
+}
+.container{
+    width: 100vh;
+    height: 25vh;
+    background-color: rgba(4, 56, 115, 1);
+    display: flex;
+}
+.header{
+    width: 100%;
+    height: 10vh;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    padding: 0 20px;
+    position: relative;
+}
+.logo{
+    height: 50px;
+    width: 200px;
+    position: absolute;
+    left: 100px;
+}
+.menu{
+    display: flex;
+    margin-left: 450px;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: space-evenly;
+    gap: 20px;
+}
+.content{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap:-80px;
+}
+.login{
+    height: 50px;
+    width: 100px;
+    background: rgba(255, 228, 146, 1);
+    border-radius: 10px;
+    color: rgba(4, 56, 115, 1);
+    border: 1px solid rgba(4, 56, 115, 1);
+}
+.whitespace{
+    height: 50px;
+    width: 250px;
+    border-radius: 10px;
+    background: rgba(79, 156, 249, 1);
+    border: 1px solid rgba(79, 156, 249, 1);
+    color: white;
+}
+.section1{
+    width: 1000px;
+    height: 400px;
+    margin-top:200px ;
+    display: flex;  
+    flex-direction: row;
+    justify-self :start;
+    align-items: center;
+    gap: 20px;
+    position: relative;
+    left: -400px;
+}
+.section2{
+    width: 85rem;
+    height: 500px;
+    background-color: white;
+    color: black;
+    margin-top:600px ;
+    display: flex;
+    flex-direction: row;
+    justify-self: start;
+    align-items: center;
+    gap: 20px;
+    padding-left: 300px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.section2.message{
+    width: 400px;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 50px;
+}
+.section3{
+    width: 85rem;
+    height: 500px;
+    background-color: rgba(4, 56, 115, 1);
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-self: start;
+    align-items: center;
+    gap: 20px;
+    padding-left: 300px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.section3.message{
+    width: 400px;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 50px;
+}
+.message{
+    width: 400px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.image{
+    width: 600px;
+    height: 50vh;
+    background: rgba(196, 222, 253, 1);
+}
+.plan-section{
+    width: 100rem;
+    height: 100vh;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 100px;
+}
